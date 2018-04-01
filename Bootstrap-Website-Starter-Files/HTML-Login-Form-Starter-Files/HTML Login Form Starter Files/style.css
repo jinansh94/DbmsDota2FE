@@ -69,13 +69,18 @@ button{
     margin-right: 7px;
 }
 .forgot{
-    padding: 25px 0 25px;
-    
+    padding: 20px 0 20px; 
 }
 .forgot a{
-    color: #c2fbfe;
-    
+    color: #c2fbfe;  
 }
+.forgot1 a{
+    color: #c2fbfe;
+}
+.forgot1{
+    padding-bottom: 5px;
+}
+
 
 
 
