@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+.navbar{
+          margin-bottom: 0;
+          border-radius: :0;
+          background-color: black;
+          color: #FFF;
+          padding: 1% 0;
+          font-size: 1.2em;
+          border: 0;
+      }
+.navbar-brand{
+          float: left;
+          min-height: 55px;
+          padding: 0 15px 5px;
+      }
+.navbar-inverse .navbar-nav .active a,.navbar-inverse .navbar-nav .active a:focus,.navbar-inverse .navbar-nav .active a:hover{
+          color: #FFF;
+          background-color:black;
+      }
+.navar-inverse .navbar-nav li a{
+          color: #dfdfdf;
+      }
+.carousel-caption{
+          top: 70%;
+          transform: translateY(-50%);
+          text-transform: none;
+      }
+.btn{
+          font-size: 18px;
+          color: black;
+          padding: 12px 22px;
+          background: black;
+          border: 2px solid #FFF;          
+      }
+      
+@media (max-width: 200px){
+          .carousel-caption{
+              display: : none;
+        }
+      }
+.dota-home{
+          height: 55px;
+          width: 100px;
+    }
+.left{
+    visibility: hidden;
+}
+.right{
+    visibility: hidden;
+}
+.carousel-control{
+    visibility: hidden;
+}
+.carousel-indicators{
+    visibility: hidden;
+}
+.dropdown-menu{
+    padding-right: 55px;
+    padding-left: 55px;
+    align-content: left;
+    min-width: auto;
+}
+.dropdown{
+    padding-left: 55px;
+    padding-top: 15px;
+    min-width: auto;
+}
+.div-inline{
+    display:inline-block;
+}
+
+
