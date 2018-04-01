@@ -2,7 +2,7 @@
 
 body{
     font-family: : 'Roboto', sans-serif;
-    background: url(img/Dota.jpg) no-repeat center center fixed;
+    background: url(img/homepage_Background.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 .main-section{
@@ -11,8 +11,8 @@ body{
     padding: 0;
 }
 .modal-content{
-    background-color: #635bc7;
-    opacity: .55;
+    background-color: #024648;
+    opacity: .85;
     padding: 0 18px;
     box-shadow: 0px 0px 3px #848484;
 }
@@ -53,8 +53,8 @@ button{
     margin: 5px 0 25px;
 }
 .btn{
-    background-color: #27c2a5;
-    color: #024647;
+    background-color: #28c2a5;
+    color: #fff;
     font-size: 19px;
     padding: 7px 14px;
     border-radius: 5px;
