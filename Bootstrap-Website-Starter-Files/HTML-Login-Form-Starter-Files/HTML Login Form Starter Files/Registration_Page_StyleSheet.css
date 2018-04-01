@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+
 body{
     font-family: : 'Roboto', sans-serif;
     background: url(img/homepage_Background.jpg) no-repeat center center fixed;
@@ -83,8 +84,36 @@ button{
 
 
 
+/* The message box is shown when the user clicks on the password field */
+#message {
+    display:none;
+    color: #000;
+    padding-left: 600px;
+}
+   
+    .fon{
+        font-size: 12px;
+    }
 
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+}
 
+.valid:before {
+    position: relative;
+    left: -35px;
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+}
 
 
 
