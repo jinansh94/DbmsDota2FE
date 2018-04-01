@@ -36,12 +36,25 @@
       }
       
 @media (max-width: 600px){
-          .carousel-caption{
-              display: : none;
-        }
+     .carousel-caption{
+        display: : none;
+    }
+    #icon{
+        max-width: 150px;
+    }
+    h2{
+        font-size: 1.7em;
+    }
       }
 .dota-home{
           height: 55px;
           width: 100px;
     }
+#icon{
+    max-width: 200px;
+    margin: 1% auto;
+}
+.container{
+    margin: 4% auto;
+}
       
