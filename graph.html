@@ -1,0 +1,224 @@
+<html>
+  <head>
+       <meta charset ="UTF-8">
+        <meta name ="viewport" content="width=device-width, intial-scale=1.0">
+        <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js">
+        </script>
+        <link rel ="stylesheet" href ="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        <title>My chart.js Chart</title>
+      <link rel="stylesheet" type="text/css" href="test.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+     <?php
+    $someVar = "Sandking";
+    ?>
+   
+      <script type="text/javascript">
+
+      // Load Charts and the corechart and barchart packages.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Draw the pie chart and bar chart when Charts is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+        
+    
+    
+   
+    var javaScriptVar = "<?php echo $someVar; ?>";
+      
+
+   
+      function drawChart() {
+
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Hero');
+        data.addColumn('number', 'Times bought');
+        data.addRows([
+          ['Magic Wand', 46875],
+          ['Arcane Boots', 24152],
+          ['TpScroll', 54378],
+          ['Phase Boots', 18720],
+          ['Power Treads', 30654]
+        ]);
+          
+        var piechart_options = {title:'Most popular items',
+                       width:400,
+                       height:300};
+        var piechart = new google.visualization.PieChart(document.getElementById('piechart_div'));
+        piechart.draw(data, piechart_options);
+
+       
+      
+      }
+</script>
+      
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+     <?php
+    $someVar = "chutya";
+    ?>
+   
+      <script type="text/javascript">
+
+      // Load Charts and the corechart and barchart packages.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Draw the pie chart and bar chart when Charts is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+        
+    
+    
+   
+    var javaScriptVar = "<?php echo $someVar; ?>";
+      
+     
+      function drawChart() {
+
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Hero');
+        data.addColumn('number', 'Pick Rate');
+        data.addRows([
+          ["Crystal Maiden", 3.08],
+          ['Rubick', 3.95],
+          ['Visage', 3.19],
+          ['Life Stealer', 2.81],
+          ['Rattletrap', 3]
+        ]);
+          
+        var piechart_options = {title:'Pick Rate of top 5 heroes',
+                       width:400,
+                       height:300};
+        var piechart = new google.visualization.BarChart(document.getElementById('barchart_div'));
+        piechart.draw(data, piechart_options);
+
+       
+      
+      }
+</script>
+      
+         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+     <?php
+    $someVar = "chutya";
+    ?>
+   
+      <script type="text/javascript">
+
+      // Load Charts and the corechart and barchart packages.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Draw the pie chart and bar chart when Charts is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+        
+    
+    
+   
+    var javaScriptVar = "<?php echo $someVar; ?>";
+      
+     
+      function drawChart() {
+
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Item');
+        data.addColumn('number', 'Win Rate');
+        data.addRows([
+          ['Blink', 3],
+          ['Archane Boots', 1],
+          ['Magic Stick', 1],
+          ['Aghanims Scepter', 1],
+          ['Bracer', 2]
+        ]);
+          
+        var piechart_options = {title:'Win rate for Hero Sand King with differnt items',
+                       width:400,
+                       height:300};
+        var piechart = new google.visualization.LineChart(document.getElementById('line_div1'));
+        piechart.draw(data, piechart_options);
+
+       
+      
+      }
+</script>
+      
+         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+     <?php
+    $someVar = "chutya";
+    ?>
+   
+      <script type="text/javascript">
+
+      // Load Charts and the corechart and barchart packages.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Draw the pie chart and bar chart when Charts is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+        
+    
+    
+   
+    var javaScriptVar = "<?php echo $someVar; ?>";
+      
+     
+      function drawChart() {
+
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Hero');
+        data.addColumn('number', 'Win Rate Percent');
+        data.addRows([
+          ['Wisp', 56],
+          ['Drow Ranger', 55],
+          ['Chen', 57],
+          ['Doom Bringer', 56],
+          ['Ember Spirit', 57]
+        ]);
+          
+        var piechart_options = {title:'Win rates of top 5 hero',
+                       width:400,
+                       height:300};
+        var piechart = new google.visualization.ColumnChart(document.getElementById('column_div1'));
+        piechart.draw(data, piechart_options);
+
+       
+      
+      }
+</script>
+      
+    </head>
+<body>
+    
+    <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#"><img class="dota-home" src="img/Dota.png"></a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav navbar-right">
+                      <li class="active"><a href="#">Explorer</a> </li>
+                      <li><a href="Trends.html">Trends</a></li>
+                      <li><a href="#hid">Log Out</a></li>
+                      <li><a href="#contact">Contact Us</a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+    
+    
+    
+    <!--Table and divs that hold the pie charts-->
+    <table class="columns" align="center">
+      <tr>
+        <td><div id="piechart_div" style="border: 1px solid #ccc"></div></td>
+          <td><div id="barchart_div" style="border: 1px solid #ccc"></div></td>
+      </tr>
+         <tr>
+          <td><div id="line_div1" style="border: 1px solid #ccc"></div></td>
+          <td><div id="column_div1" style="border: 1px solid #ccc"></div></td>
+      </tr>
+        
+       
+    </table>
+  </body>
+</html>

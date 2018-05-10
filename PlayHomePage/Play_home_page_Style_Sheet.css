@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+
+
+body{
+    background-color: white;
+}
+
+
+
+.navbar{
+          margin-bottom: 0;
+          border-radius: :0;
+          background-color: black;
+          color: #FFF;
+          padding: 1% 0;
+          font-size: 1.2em;
+          border: 0;
+      }
+.navbar-brand{
+          float: left;
+          min-height: 55px;
+          padding: 0 15px 5px;
+      }
+.navbar-inverse .navbar-nav .active a,.navbar-inverse .navbar-nav .active a:focus,.navbar-inverse .navbar-nav .active a:hover{
+          color: #FFF;
+          background-color:black;
+      }
+.navar-inverse .navbar-nav li a{
+          color: white;
+      }
+.carousel-caption{
+          top: 70%;
+          transform: translateY(-50%);
+          text-transform: none;
+      }
+.btn{
+          font-size: 18px;
+          color: #FFF;
+          padding: 12px 22px;
+          background: black;
+          border: 2px solid #FFF;
+      }
+@media (max-width: 900px){
+    .fa{
+        font-size:20 px;
+        padding: 10px;
+    }
+}
+
+
+@media (max-width: 600px){
+     .carousel-caption{
+        display: : none;
+    }
+    #icon{
+        max-width: 150px;
+    }
+    h2{
+        font-size: 1.7em;
+    }
+      }
+.dota-home{
+          height: 55px;
+          width: 100px;
+    }
+#icon{
+    max-width: 200px;
+    margin: 1% auto;
+}
+.container{
+    margin: 4% auto;
+}
+footer{
+    width:100%;
+
+    background-color:black;
+    padding:5%;
+
+    color: #FFF;
+}
+
+.headin{
+  color: white;
+
+}
+
+.fa{
+    padding: 17px;
+    font-size: 25px;
+    color: #FFF;
+}
+.fa:hover{
+    color: red;
+    text-decoration: none;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .slider-size {
+        height: auto;
+    }
+    .slider-size > img {
+         width: 80%;
+    }
+}
+
+/* tablets */
+@media (max-width: 991px) and (min-width: 768px) {
+    .slider-size {
+        height: auto;
+    }
+    .slider-size > img {
+        width: 80%;
+    }
+}
+
+/* laptops */
+@media (max-width: 1023px) and (min-width: 992px) {
+    .slider-size {
+         height: 200px;
+    }
+    .slider-size > img {
+        width: 80%;
+    }
+}
+
+/* desktops */
+@media (min-width: 1024px) {
+    .slider-size {
+        height: 300px;
+    }
+    .slider-size > img {
+        width: 60%;
+    }
+}

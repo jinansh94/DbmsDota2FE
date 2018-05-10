@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="HomeStyleSheet.css">
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img class="dota-home" src="img/Dota.png"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Home</a> </li>
+                    <li><a href="graph.html">Trends</a></li>
+                    <li><a href="#dota2">Dota2</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#hid">More Info on Dota2</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" id="home">
+        <div class="carousel-caption">
+                    <h1>Win your Dota2</h1>
+                    <br>
+                    <button type="button" class="btn bt-default"><a href="Login_Page.php">Get Started</a></button>
+            </div>
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active">
+            </li>
+            <li data-target="#myCarousel" data-slide-to="1">
+            </li>
+            <li data-target="#myCarousel" data-slide-to="2">
+            </li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            
+            <div class="item active">
+                <img src="img/Dota0.png">   
+            </div><!-- End Active -->
+            <div class="item">
+                        <img src="img/Dota1.png">
+            </div>
+            <div class="item">
+                        <img src="img/Dota2.png">
+            </div>
+        </div>
+        <!-- Start Slider Controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+    </div><!--- End Slider -->
+    
+    <div class="container text-center" id="stats">
+    
+        <h2>Trends</h2>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/logo1.png" id="icon">
+                <h4>Matches</h4>
+            </div>
+            <div class="col-sm-4">
+                <img src="img/logo2.png" id="icon">
+                <h4>Players</h4>
+            </div>
+             <div class="col-sm-4">
+                <img src="img/logo3.png" id="icon">
+                <h4>Heroes</h4>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container" id="dota2">
+        <div class="row">
+            <div class="col-md-6">
+             <h4>Here's are some cool things about DOta2</h4>
+                <p>Dota 2 is a free-to-play multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation. The game is the stand-alone sequel to Defense of the Ancients (DotA), which was a community-created mod for Blizzard Entertainment's Warcraft III: Reign of Chaos and its expansion pack, The Frozen Throne. Dota 2 is played in matches between two teams of five players, with each team occupying and defending their own separate base on the map. Each of the ten players independently controls a powerful character, known as a "hero", who all have unique abilities and differing styles of play.</p>
+                <p>Development of Dota 2 began in 2009 when IceFrog, the pseudonymous lead designer of the original Defense of the Ancients mod, was hired by Valve to create a modernized sequel. Dota 2 was officially released for Microsoft Windows, OS X, and Linux-based personal computers via the digital distribution platform Steam in July 2013, following a Windows-only public beta phase that began two years prior. </p> 
+            </div>
+            <div class="col-md-6">
+                <img src="img/championship.png" class="img-responsive">
+            </div>
+        </div>
+    </div>
+    
+    <div class="container" id="about">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 co-sm-6 col-xs-12">
+             <h4>About our Project</h4>
+                <p>The prize pool of a Dota 2 event named "The International 2017" was $24,787,916. The winners of the same were Team Liquid who beat Newbee in the finals. </p>
+            </div>
+            <div class="col-lg-3 col-md-3 co-sm-6 col-xs-12">
+                <img src="img/sass.png" class="img-responsive">
+            </div>
+             <div class="col-lg-3 col-md-3 co-sm-6 col-xs-12">
+             <h4>About our Group</h4>
+                <p>Dota 2 is a free-to-play multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation. The game is the stand-alone sequel to Defense of the Ancients (DotA), which was a community-created mod for Blizzard Entertainment's Warcraft III: Reign of Chaos and its expansion pack, The Frozen Throne. Dota 2 is played in matches between two teams of five players, with each team occupying and defending their own separate base on the map. Each of the ten players independently controls a powerful character, known as a "hero", who all have unique abilities and differing styles of play. </p>
+            </div>
+            <div class="col-lg-3 col-md-3 co-sm-6 col-xs-12">
+                <img src="img/less.png" class="img-responsive">
+            </div>
+        </div>
+    </div>
+    
+        <div class="container" id="hid">
+        <div class="row">
+           <h4><a href="#hidden" data-toggle="collapse">Care to learn more about Dota2</a></h4>
+            <div id="hidden" class="collapse">
+             <h4>Here's are some more things about DOta2......</h4>
+                <p>Development of Dota 2 began in 2009 when IceFrog, the pseudonymous lead designer of the original Defense of the Ancients mod, was hired by Valve to create a modernized sequel. Dota 2 was officially released for Microsoft Windows, OS X, and Linux-based personal computers via the digital distribution platform Steam in July 2013, following a Windows-only public beta phase that began two years prior. </p> 
+                </div>
+        </div>
+    </div>
+    
+    
+    <footer class="container-fuid text-center" id="contact">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Contact Us</h3>
+                <br>
+                <h4>Our address and contact and info here</h4>
+            </div>
+            <div class="col-sm-4">
+                <h3>Connect</h3>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-github"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+            <div class="col-sm-4">
+                <img src="img/bunny.png" class="icon">
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+</body>
+</html>
